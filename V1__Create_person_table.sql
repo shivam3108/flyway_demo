@@ -1,3 +1,4 @@
-insert into PERSON (ID, NAME) values (112, 'Axel1111111');
-insert into PERSON (ID, NAME) values (213, 'Mr. Foo11111');
-insert into PERSON (ID, NAME) values (314, 'Ms. Bar11111');
+create table PERSON (
+    ID int not null,
+    NAME varchar(100) not null
+);
